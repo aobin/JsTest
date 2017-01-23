@@ -1,0 +1,16 @@
+.test {
+	color: white;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	background-color: green;
+	/*text-align: center;*/
+	margin-top: 5px;
+	padding-top: 50px;
+}
+
+.input {
+	position: relative;
+	top: 20px;
+	left: -45px;
+}
