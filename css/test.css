@@ -1,16 +1,39 @@
+
+
 .test {
 	color: white;
 	width: 200px;
 	height: 100px;
 	position: absolute;
 	background-color: green;
-	/*text-align: center;*/
-	margin-top: 5px;
-	padding-top: 50px;
+	text-align: center;
+	/*margin-top: 5px;*/
+	/*padding-top: 50px;*/
 }
 
-.aobin.input {
+.aobin.input{
 	position: relative;
 	top: 20px;
-	left: -45px;
+	/*left: 20px;*/
+	width: 100%;
+	cursor: pointer;
+	float: left;
+	background-image: url(../image/+1.png);
+}
+
+.aobin.input:focus{
+	border: solid;
+	border-width: 2px;
+	border-color: red;
+}
+
+.aobin.input:hover{
+	background: yellow;
+}
+.aobin.input:active{
+	background: blue;
+}
+
+#div{
+	margin: auto;
 }
