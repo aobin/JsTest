@@ -1,5 +1,4 @@
 
-
 .test {
 	color: white;
 	width: 200px;
@@ -36,4 +35,19 @@
 
 #div{
 	margin: auto;
+}
+
+#div *{
+	border: solid red 2px;
+}
+
+#div2 {
+    position: absolute;
+    top: 150px;
+}
+
+#div2>input[type="button"]
+{
+    display: block;
+    margin-top: 3px;
 }

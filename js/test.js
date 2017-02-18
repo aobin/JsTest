@@ -1,13 +1,15 @@
-function test(a)
+
+function compareValue()
 {
-	console.log(a);
+	console.log($("#inputValue").val());
+	console.log($("#inputValue").val()!="#collections/claimPrinter/fromPrintDialog");
 }
 
-function inputClick(value)
-{
-	alert(value);
-	$("div").prepend("<input type='button' />");
-	$("input[type='button']").css("background-color","red");
-}
+
+$("#aobin").bind("click",function(e){
+    compareValue();
+});
+
+
 
 
